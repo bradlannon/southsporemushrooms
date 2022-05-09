@@ -18,7 +18,7 @@ html {
     text-align: center;
 }
 #header{
-    color: #aa734a;
+    color: #815a3d;
     background:#f4eade;
     margin:0px;
 }
@@ -27,8 +27,8 @@ html {
 }
 #header{
     height:100%;
-     padding-top: 100px;
-    padding-bottom: 175px; 
+     padding-top: 50px;
+    padding-bottom: 275px; 
 } 
 #testimonial, #info-one, #info-two, #contact {
     padding-top: 75px;
