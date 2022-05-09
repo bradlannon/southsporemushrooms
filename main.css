@@ -1,8 +1,16 @@
 body{
     font-family: 'Work Sans', sans-serif; 
+    margin:0px;
+    height:100%
+}
+
+html {
+    margin:0px;
+    height:100%
+
 }
 #navbar{
-    background: white !important;
+    background:#f4eade;
 }
 #testimonial{
     background: white;
@@ -12,13 +20,15 @@ body{
 #header{
     color: #aa734a;
     background:#f4eade;
+    margin:0px;
 }
 #info-one{
     background: #f1f1f1;
 }
 #header{
-    padding-top: 175px;
-    padding-bottom: 175px;
+    height:100%;
+     padding-top: 175px;
+   /* padding-bottom: 175px; */
 } 
 #testimonial, #info-one, #info-two, #contact {
     padding-top: 75px;
@@ -36,6 +46,11 @@ footer{
     border-color: #f1f1f186;;
 }
 
-img {
-    border: 0px;
+
+.img-box{
+
+    border: 0px ;
+}
+.img-box img{
+    display: block;
 }
