@@ -24,7 +24,7 @@ html {
 #header{
     height:100%;
     padding-top: 50px;
-    padding-bottom: 175px; 
+
     color: #815a3d;
     background:#f4eade;
     margin:0px;
@@ -46,12 +46,12 @@ footer{
 }
 
 
-.img-box{
-    border: 0px ;
-}
-.img-box img{
-    display: block;
-}
 
+@media only screen and (max-width: 600px) {
+    h3 {
+      padding:200px;
+      background-color: lightblue;
+    }
+  }
 
 
